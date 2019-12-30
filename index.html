@@ -30,11 +30,20 @@
 		  padding: 150px 0px;
 		  text-align: center;
 	  }
-	  
-	  #main {
-		  width: 40%;
-		  margin: 0px auto;
-	  }
+
+@media only screen and (min-width: 401px) and (max-width: 860px) {
+#main {
+width: 400px;
+margin: 0px auto;
+}
+}
+
+@media only screen and (min-width: 861px) {
+#main {
+width: 600px;
+margin: 0px auto;
+}
+}
 	  
 	  .logo {
 		  width: 100%;
@@ -80,6 +89,12 @@
 			  background: #000;
 			  color: #fff;
 			  border: none;
+		  }
+		  
+		  @media only screen and (min-width: 401px) and (max-width: 860px) {
+		  #button-subscribe {
+			  margin: 10px 0px 0px 0px;
+		  }
 		  }
 	  
 	  .social {
