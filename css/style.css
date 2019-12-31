@@ -16,12 +16,13 @@ a {
 	border-width: 20px 0px;
 	background: #d7c69f;
 	padding: 150px 20px;
-	text-align: center;
+	text-align: left;
 }
 
 	@media (min-width: 500px) {
 	  #container {
 		  padding: 150px 0px;
+		  text-align: center;
 	  }
 	}
 
@@ -61,7 +62,6 @@ p {
 	font-size: 1.2em;
 	font-style: italic;
 	padding: 10px;
-	margin: 0px 20px 0px 0px;
 	width: 275px;
 	background: #fff;
 	color: #000;
@@ -75,7 +75,7 @@ p {
 	background: #000;
 	color: #fff;
 	border: none;
-	margin: 10px 0px 0px 0px;
+	margin: 10px 0px 0px 20px;
 }
 
 	@media (min-width: 500px) {
