@@ -3,18 +3,18 @@ body {
 	margin: 0px;
 	font-family: adobe-garamond-pro, serif;
 	font-style: normal;
-	color: #444;
+	color: #aaa;
 }
 
 a {
-	color: #000;
+	color: #ccc;
 }
 
 #container {
-	border-color: rgb(29, 29, 29);
+	border-color: #d7c69f;
 	border-style: solid;
 	border-width: 20px 0px;
-	background: #d7c69f;
+	background: #1d1d1d;
 	padding: 100px 20px;
 	text-align: left;
 }
@@ -41,7 +41,7 @@ h2 {
 	line-height: 1.4em;
 	margin: 60px 0px;
 	font-weight: 700;
-	color: #000;
+	color: #fff;
 }
 
 p {
@@ -89,8 +89,8 @@ p {
 	font-family: adobe-garamond-pro, serif;
 	font-size: 1.2em;
 	padding: 10px 30px;
-	background: #000;
-	color: #fff;
+	background: #d7c69f;
+	color: #000;
 	border: none;
 }
 
