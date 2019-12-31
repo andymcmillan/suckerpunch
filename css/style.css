@@ -54,6 +54,7 @@ p {
 	padding: 40px 0px;
 	margin: 0px auto;
 	display: block;
+	text-align: left;
 }
 
 	@media (min-width: 500px) {
