@@ -6,6 +6,11 @@ body {
 	color: #aaa;
 }
 
+strong {
+    color: #ccc;
+    font-weight: bold;
+}
+
 a {
 	color: #ccc;
 }
