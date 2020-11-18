@@ -3,7 +3,7 @@ body {
 	margin: 0px;
 	font-family: adobe-garamond-pro, serif;
 	font-style: normal;
-	color: #aaa;
+	color: #eee;
 }
 
 strong {
@@ -19,7 +19,7 @@ a {
 	border-color: #d7c69f;
 	border-style: solid;
 	border-width: 20px 0px;
-	background: #1d1d1d;
+	background: #313148;
 	padding: 100px 20px;
 	text-align: left;
 }
