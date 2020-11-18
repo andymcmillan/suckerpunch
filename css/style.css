@@ -6,61 +6,81 @@ body {
 	color: #eee;
 }
 
-strong {
-    color: #ccc;
-    font-weight: bold;
+#alert {
+	background: #d7c69f;
+	padding: 5px;
+	margin: 0px;
 }
 
-a {
-	color: #ccc;
-}
+	#alert p {
+		text-align: center;
+		font-size: 1.3em;
+		line-height: 1.4em;
+		font-weight: 400;
+		color: #000;
+	}
+	
+	#alert a {
+		color: #000;
+	}
+	
+	#alert strong {
+	    color: 000;
+	    font-weight: bold;
+	}
 
 #container {
 	border-color: #d7c69f;
 	border-style: solid;
-	border-width: 20px 0px;
+	border-width: 0px 0px 20px 0px;
 	background: #313148;
-	padding: 100px 20px;
 	text-align: left;
 }
-
-	@media (min-width: 500px) {
-	  #container {
-		  padding: 150px 0px;
-		  text-align: center;
-	  }
-	}
 
 #main {
 	max-width: 625px;
 	margin: 0px auto;
-	padding: 0px 20px;
+	padding: 100px 20px;
+	width: 100%;
+	text-align: center;
 }
+
+	@media (min-width: 500px) {
+	  #main {
+		  padding: 120px 0px;
+		  text-align: center;
+	  }
+	}
 
 .logo {
 	max-width: 100%;
 }
 
-h2 {
-	font-size: 1.5em;
-	line-height: 1.4em;
-	margin: 60px 0px;
-	font-weight: 700;
-	color: #fff;
-}
+	#main h2 {
+		font-size: 1.5em;
+		line-height: 1.4em;
+		margin: 60px 0px;
+		font-weight: 700;
+		color: #fff;
+	}
 
-p {
-	font-size: 1.2em;
-	line-height: 1.4em;
-	font-weight: 400;
-}
+	#main p {
+		font-size: 1.3em;
+		line-height: 1.6em;
+		font-weight: 400;
+	}
 
-	.notified {
-		margin: 60px 0px 0px 0px;
+	#main strong {
+	    color: #fff;
+	    font-weight: bold;
+	}
+
+	#main a {
+		color: #fff;
 	}
 
 #notification-sign-up {
-	padding: 60px 0px;
+	padding: 50px 0px 60px;
 	margin: 0px auto;
 	display: block;
 	text-align: left;
